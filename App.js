@@ -42,7 +42,7 @@ export default function App() {
   }, []);
 
   const boxStyle = {
-    position: "relative",
+    position: "absolute",
     left: positionX - BOX_SIZE / 2,
     top: positionY - BOX_SIZE / 2,
     width: BOX_SIZE,
